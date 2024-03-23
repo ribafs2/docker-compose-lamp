@@ -37,6 +37,8 @@ cp sample.env .env
 docker compose up -d
 // visit localhost
 docker compose exec webserver bash
+apt update
+apt install unzip
 ```
 
 Your LAMP stack is now ready!! You can access it via `http://localhost`.
